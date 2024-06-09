@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #61999c;
+  /*#2e353d*/
+  /*background: linear-gradient(to bottom, #61999c, #88adb3, #d1e4e8);*/
+  /* Ensure the gradient is on top of the solid color */
+  background-blend-mode: overlay;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
